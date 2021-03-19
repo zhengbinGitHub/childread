@@ -1,0 +1,142 @@
+/* 基于normalize bootstrap 的全局重置CSS文件部分1.2版本 */
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+html {  font-family: sans-serif; /* 1 */  -ms-text-size-adjust: 100%; /* 2 */  -webkit-text-size-adjust: 100%; /* 2 */-webkit-tap-highlight-color: rgba(0, 0, 0, 0);/* 消除移动浏览器点击蓝色背景 */}
+body {  margin: 0;text-align:left;font-size: 12px; background:#fff;font-family:"Microsoft yahei","\5fae\8f6f\96c5\9ed1";}
+article,aside,details, /* 1 */figcaption,figure,footer,header,main, /* 2 */menu,nav,section,summary { /* 1 */  display: block;}
+audio,canvas,progress,video {  display: inline-block;}
+audio:not([controls]) {  display: none;  height: 0;}
+progress {  vertical-align: baseline;}
+template, /* 1 */[hidden] {  display: none;}
+a {  background-color: transparent; /* 1 */  -webkit-text-decoration-skip: objects; /* 2 */}
+a:active,a:hover {  outline-width: 0;}
+abbr[title] {  border-bottom: none; /* 1 */  text-decoration: underline; /* 2 */  text-decoration: underline dotted; /* 2 */}
+b,strong {  font-weight: inherit;}
+b,strong {  font-weight: bolder;}
+dfn {  font-style: italic;}
+h1 {  font-size: 2em;  margin: 0.67em 0;}
+mark {  background-color: #ff0;  color: #000;}
+small {  font-size: 80%;}
+sub,sup {  font-size: 75%;  line-height: 0;  position: relative;  vertical-align: baseline;}
+sub {  bottom: -0.25em;}
+sup {  top: -0.5em;}
+img {  border-style: none;}
+svg:not(:root) {  overflow: hidden;}
+code,kbd,pre,samp {  font-family: monospace, monospace; /* 1 */  font-size: 1em; /* 2 */}
+figure {  margin: 1em 40px;}
+hr {  box-sizing: content-box; /* 1 */  height: 0; /* 1 */  overflow: visible; /* 2 */}
+button,input,select,textarea {  font: inherit; /* 1 */  margin: 0; /* 2 */outline:none;}
+optgroup {  font-weight: bold;}
+button,input { /* 1 */  overflow: visible;}
+button,select { /* 1 */  text-transform: none;}
+button,html [type="button"], /* 1 */[type="reset"],[type="submit"] {  -webkit-appearance: button; /* 2 */}
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}
+button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring {  outline: 1px dotted ButtonText;}
+fieldset {  border:0;  margin: 0 2px;  padding: 0.35em 0.625em 0.75em;}
+legend {  box-sizing: border-box; /* 1 */  color: inherit; /* 2 */  display: table; /* 1 */  max-width: 100%; /* 1 */  padding: 0; /* 3 */  white-space: normal; /* 1 */}
+textarea {  overflow: auto;}
+[type="checkbox"],[type="radio"] {  box-sizing: border-box; /* 1 */  padding: 0; /* 2 */}
+[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button {  height: auto;}
+[type="search"] {  -webkit-appearance: textfield; /* 1 */  outline-offset: -2px; /* 2 */}
+[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration {  -webkit-appearance: none;}
+::-webkit-input-placeholder {  color: inherit;  opacity: 0.54;}
+::-webkit-file-upload-button {  -webkit-appearance: button; /* 1 */  font: inherit; /* 2 */}
+/* normalize.css结束 */
+.clearfix {	*zoom:1}
+.clearfix:before,.clearfix:after {	display:table;	line-height:0;	content:""}
+.clearfix:after {	clear:both}
+p{margin: 0;}
+i{ font-style:normal; }
+img {	width:auto\9;	height:auto;	max-width:100%;	vertical-align:middle;	border:0;	-ms-interpolation-mode:bicubic}
+ul,ol,dl,h1,h2,h3,h4,h5,h6,dt,dd{margin:0;padding:0}
+ul li,ol li{list-style:none}
+.f-fl,.f-lifl li,.f-dlfl dt,.f-dlfl dd{float:left;display:inline}
+.f-fr{float:right;display:inline}
+a,a:visited{text-decoration:none;color:#2a2a2a;}
+a:hover{transition:color 160ms ease 0s, background-color 200ms ease 0s, border-color 160ms ease 0s, transform 500ms ease 0s; color: #f77;cursor: pointer;}
+em{ font-style:normal;}
+/* 全站全局CSS部分结束 */
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+.g-box-1200{ width:1200px; height:auto; margin:auto; display:block; }
+.g-top-full{ width:100%; height:20px; background:#f1f1f1; display:block; overflow:hidden}
+.g-top-full p{ height:30px; line-height:30px; font-size:12px; font-weight:normal; color:#fff; font-family:serif; overflow:hidden}
+.g-top-full p a{ padding:0 10px; color:#fff;}
+.g-top-full p a:hover{ text-decoration:none;color: #f77}
+
+.g-nav-full{ width:100%; height:100px; padding:0; background:#fff;  display:block; overflow:hidden}
+.g-nav-full .u-logo{ width:242px; height:auto; margin-top:9px; overflow:hidden}
+.g-nav-full .u-logo:hover img{-webkit-transition:all 0.5s ease-in-out;	-moz-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; transform:scale(1); -webkit-transform:scale(1); -moz-transform:scale(1); -o-transform:scale(1);}
+.g-nav-full .tip{ width: 286px; height: 38px; margin: 25px 0 0 40px; background:url(../images/baotips.jpg) no-repeat 0 0;}
+.g-nav-full .m-nav{ width:auto; height:auto; margin:7px 0 0 20px; overflow:hidden}
+.g-nav-full .m-nav li{ float:left; margin:0 0 0 30px; float:left; display:inline;}
+.g-nav-full .m-nav li a{width:auto; height:33px; line-height:33px; font-size:16px; font-weight:normal; color:#333; padding:0 10px; text-decoration:none; display:block; overflow:hidden;}
+.g-nav-full .m-nav li a:hover{ background:#00AAFF; color:#fff;}
+.g-nav-full form.f-fr{ width:450px; height:46px; margin:24px 0 0; overflow:hidden}
+.g-nav-full form.f-fr .u-search-input{ width:372px; height:42px; line-height:30px; text-indent:34px; background:url(../images/ssk.jpg) no-repeat #fff 6px 12px; float:left; font-size:16px; font-weight:normal; color:#333; margin:0; padding:0; border:2px solid #fd6a88; border-radius:6px 0 0 6px; }
+.g-nav-full form.f-fr .u-search-btn{ width:74px; height:46px; line-height:32px; font-size:16px; font-weight:normal; color:#fff; text-align:center; background:#fd6a88; float:left; margin:0; padding:0; border:0; border-radius:0 6px 6px 0; display:inline; overflow:hidden; cursor:pointer}
+
+.g-navlist{ width:100%;  }
+.g-navlist .m-nav1 {background-color:#fd6a88;}
+.g-navlist ul {}
+.g-navlist ul li{ float:left; width:170px;  font-size:16px; color:#fff;}
+.g-navlist ul li a{ display:block; font-size:16px; color:#fff;height:46px; line-height:46px;}
+.g-navlist ul li a i {width: 30px; height: 30px; float: left;margin:8px 10px 0 45px; background-image: url(../images/baobtn.png); background-repeat: no-repeat; background-position: -6px -13px; }
+.g-navlist ul li.m-ind a i {}
+.g-navlist ul li.m-by a i {background-position: -5px -57px;}
+.g-navlist ul li.m-hy a i {background-position: -5px -105px;}
+.g-navlist ul li.m-ch a i {background-position: -5px -153px;}
+.g-navlist ul li.m-sh a i {background-position: -5px -200px;}
+.g-navlist ul li.m-ye a i {background-position: -5px -248px;}
+.g-navlist ul li.m-zj a i {background-position: -7px -294px;}
+.g-navlist ul li.m-bk a i {background-position: -5px -344px;}
+.g-navlist ul li.m-zt a i {background-position: -5px -392px;}
+.g-navlist ul li.hover a{ background-color:#ee4d75;}
+.g-navlist ul li a:hover,.g-navlist ul li.f-hover a { background-image: url(../images/btn-bg.png);_background-image: url(../images/btn-bg.gif); background-repeat:no-repeat; background-position: center bottom }
+
+
+
+.m-nan2 { height: 46px; line-height: 46px; font-size: 14px;    overflow: hidden; }
+.m-nan2 .m-intxt {}
+.m-nan2 .m-intxt i {float: left}
+.m-nan2 .m-intxt span{ display: inline-block; width: 260px; overflow: hidden; height: 46px; margin-left: 10px;margin-right: 10px; }
+.m-nan2 .m-intxt span a{ background: url(../images/indian1.gif) no-repeat 0px 5px;padding-left: 12px }
+.m-nan2 .m-nav2div {text-align: center;}
+.m-nan2 .m-nav2div a { margin:0 20px;background: url(../images/indian1.gif) no-repeat 0px 5px;padding-left: 12px }
+
+.f-ico1 { background-image: url(../images/indexbg.png); background-repeat: no-repeat; }
+.m-intit { height: 48px; border-left:3px #fd6a88 solid; font-weight: normal; margin-bottom:15px; }
+.m-intit {padding-left: 20px;}
+.m-intit div { font-size: 24px ; color: #333; height: 30px; line-height: 30px; overflow:hidden; margin-bottom: 5px }
+.m-intit div span { color: #fd7792 }
+.m-intit p { color: #aaa; font-family: arial; font-size: 10px }
+
+.g-tith2 { font-weight: normal; border-bottom: 3px #fd6a88 solid; height: 60px; line-height: 60px;overflow: hidden; margin-bottom: 28px; }
+.g-tith2 .m-h2left {font-size: 24px; }
+.g-tith2 .m-h2left span{ color: #333; margin-right: 10px;  }
+.g-tith2 .m-h2left i { color:#ccc ;font-family: arial }
+.g-tith2 .m-h2right { font-size: 14px; }
+.g-tith2 .m-h2right a{ color: #555 }
+.g-tith2 .m-h2right a:hover{ color: #f77 }
+.g-tith2 .m-h2left i.f-ico1 { width: 36px; height: 36px; float: left;margin: 12px 12px 0 0; }
+.g-tith2 .m-h2left i.m-beiyun { background-position:-524px -1px; }
+.g-tith2 .m-h2left i.m-chanhou { background-position:-612px 0px; }
+.g-tith2 .m-h2left i.m-zaojiao { background-position:-704px 0px; }
+.g-tith2 .m-h2right span { font-size: 30px; color: #ddd;position: relative;top: 6px; font-family: arial; font-weight: normal; margin:0 10px; }
+
+/* 底部版权 */
+.g_foot { background:#fbfbfb; border-top:1px solid #cecece; text-align:center; font-size:12px; padding:10px 0; margin:20px 0 0 0; line-height:24px; color: #666}
+.g_foot  p { text-align:center;}
+.g_foot  a { font-size:12px; color:#333}
+.g_foot b,.g_foot span { color:#F00}
+/* 当前位置 */
+.f-jkico {background-image:url(../images/jkicon.jpg); background-repeat: no-repeat;}
+.g-jknav{ height:44px;  position:relative; zoom:1; text-indent:24px;}
+.g-jknav b{ width:13px; height:15px;  position:absolute; left:2px; top:15px; background-position: -9px -8px}
+.g-jknav strong{ width:100%; height:44px;line-height:44px; font-size:14px; font-weight:normal; color:#333;text-indent:24px; display:block; overflow:hidden;}
+
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+/* 返回顶部 滚动监听 */
+.g-float{ width:60px; height:auto;position:fixed;bottom:10px;right:0%;cursor:pointer;z-index:100;}
+.g-float a{ width:100%; height:60px; margin:1px 0 0 0; display:block; overflow:hidden;}
+.g-float #m-top-back{ height:0px; background:url(../images/gotop.gif) no-repeat;-webkit-transition: all 0.2s;-moz-transition: all 0.2s;-o-transition: all 0.2s;transition: all 0.2; float:left; display:block; overflow:hidden}
+.g-float #m-top-back:hover {background-position:-60px 0;}

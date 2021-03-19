@@ -1,0 +1,256 @@
+/* 监听 */
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+.g-rightnav {width:60px; height:auto;position:fixed;bottom:80px;z-index:100; right: 0%; height: 320px; }
+.g-rightnav li{ margin-bottom: 5px }
+.g-rightnav li a{ display: block; width: 60px; height: 60px; background-image: url(../images/rightnav.gif); font-size: 0; line-height:0; text-indent: -999px;-webkit-transition: all 0.2s;-moz-transition: all 0.2s;-o-transition: all 0.2s;transition: all 0.2;}
+.g-rightnav li a.m-rightnav-tj {background-position:0 0;}
+.g-rightnav li a.m-rightnav-tj:hover,.g-rightnav li.f-hover a.m-rightnav-tj{background-position:-60px 0;}
+.g-rightnav li a.m-rightnav-nx{background-position:0 -60px;}
+.g-rightnav li a.m-rightnav-nx:hover,.g-rightnav li.f-hover a.m-rightnav-nx{background-position:-60px -60px;}
+.g-rightnav li a.m-rightnav-ma{background-position:0 -120px;}
+.g-rightnav li a.m-rightnav-ma:hover,.g-rightnav li.f-hover a.m-rightnav-ma{background-position:-60px -120px;}
+.g-rightnav li a.m-rightnav-my{background-position:0 -180px;}
+.g-rightnav li a.m-rightnav-my:hover,.g-rightnav li.f-hover a.m-rightnav-my{background-position:-60px -180px;}
+.g-rightnav li a.m-rightnav-yd{background-position:0 -240px;}
+.g-rightnav li a.m-rightnav-yd:hover,.g-rightnav li.f-hover a.m-rightnav-yd{background-position:-60px -240px;}
+.g-rightnav li a.m-rightnav-xl{background-position:0 -300px;}
+.g-rightnav li a.m-rightnav-xl:hover,.g-rightnav li.f-hover a.m-rightnav-xl{background-position:-60px -300px;}
+.g-rightnav li a.m-rightnav-ys{background-position:0 -360px;}
+.g-rightnav li a.m-rightnav-ys:hover,.g-rightnav li.f-hover a.m-rightnav-ys{background-position:-60px -360px;}
+
+
+.m-inleft { width: 845px; }
+.m-inright { width: 320px; }
+/*  首页第一排 */
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+.m-headnews-tit { height: 50px; overflow:hidden;padding:0 40px; }
+.m-headnews-tit i{ display:block; float:left; width:120px; line-height:50px; text-align:center; font-size:18px; font-style:normal;}
+.m-headnews-tit i.f-hover{ color:#fd6a88; font-weight: bold}
+.m-headnews-list {  }
+.m-headnews-list li{ padding:9px 0; border-bottom:1px solid #eee;}
+.m-headnews-list li.f-ix{ padding:10px 0 2px; border:none;}
+.m-headnews-list li em{  float:left; width:25px; font-size:20px; font-style: italic; font-family:simsun;}
+.m-headnews-list li .name{ height:34px; line-height:33px; font-size:16px; overflow: hidden;}
+.m-headnews-list li .name a:hover{ color:#fd6a88;}
+.m-headnews-list li .js{ display:none; width: 376px; margin: 4px 0 0 25px; background:url(../images/ppage.gif) #fafafa no-repeat; color: #aaa; height: 54px; overflow: hidden;padding:14px 10px 10px 10px;}
+.m-headnews-list li .js p{  font-size: 13px; line-height: 19px; height: 54px; overflow: hidden;}
+.m-headnews-list li.f-ix .js{ display:block;}
+.m-hyh a{ display:block; border:1px #eee solid;border-top: none; height: 48px; line-height: 48px; text-align: center; font-size: 16px; }
+.m-hyh a img { margin-right: 10px }
+
+/* 幻灯 */
+.m-box{width: 845px;height:472px;position:relative;text-align:center;overflow: hidden;}
+.m-box .m-flashul{width:5000px;position:absolute;top:0;left:0;}
+.m-box .m-flashul li{float:left;}
+.m-box .m-li{width:100%;position:absolute;left:0;bottom:50px;}
+.m-box .m-li li{width:10px;height:10px;background:#ccc;border-radius:50%;display:inline-block;margin:0 3px;cursor:pointer;}
+.m-box ul li a img { display: block;width: 845px;height:472px;transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out;	-moz-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; transform:scale(1); -webkit-transform:scale(1); -moz-transform:scale(1); -o-transform:scale(1); }
+.m-box ul li a:hover img {transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out;	transform:scale(1.2); -webkit-transform:scale(1.2);	-moz-transform:scale(1.2); -o-transform:scale(1.2);}
+.m-box ul li a { display: block; position: relative; }
+
+.m-box ul li a p{ position: absolute; width: 100%; height: 40px; line-height: 40px; left:0; bottom:0px; font-size: 20px; background-color: rgba(0,0,0,0.5);*background-color:#333; ;color: #fff; }
+.m-box ul li a:hover p { background-color: rgba(0,0,0,0.5); }
+.m-box .but{position: absolute;top:50%;margin-top:-30px;width:38px;height:60px;line-height:60px;text-align:center;font-size: 30px;background:rgba(0,0,0,0.5);color:#fff;font-family: '宋体';cursor:pointer;display: none;}
+.m-box:hover .but{display:block;}
+.m-box .but-left{left:0;}
+.m-box .but-right{right:0;}
+.m-box .m-li .index{background:#f60;width: 30px;border-radius:10px;}
+.m-box .bar{ position: absolute; left: 0; bottom: 0; height: 5px; background-color: hsla(24,100%,50%,0.5); }
+
+/* 首页推荐 */
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+.g-intop { margin-bottom: 36px }
+.g-intop .m-inleft { height: 472px; }
+.m-hotul li{ border-bottom:1px #eee solid; }
+.m-hotul li .m-tit { font-size: 18px; font-weight: bold; padding: 10px 0  0}
+.m-hotul li p.m-img { }
+.m-hotul li p.m-img a { width: 172px; height: 120px; float: left; overflow: hidden; margin-right: 31px }
+.m-hotul li p.m-img a img {width: 172px; height: 120px; display: block; float: left;transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out;	-moz-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; transform:scale(1); -webkit-transform:scale(1); -moz-transform:scale(1); -o-transform:scale(1); }
+.m-hotul li p.m-img a:hover img {transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out;	transform:scale(1.2); -webkit-transform:scale(1.2);	-moz-transform:scale(1.2); -o-transform:scale(1.2);}
+
+.m-hotul li .m-newtags{ padding: 10px 0 }
+.m-hotul li .m-newtags a{ display: inline-block;height: 20px; line-height: 20px; border:1px #fd6a88 solid; padding: 0 10px; margin-right: 10px;color: #fd6a88; border-radius: 6px }
+.m-hotul li .m-newtags a:hover { background-color: #fd6a88; color: #fff }
+.m-hotul li .m-newtags a:nth-child(2) {border-color:#5cdeac;color: #5cdeac}
+.m-hotul li .m-newtags a:nth-child(2):hover {background-color:#5cdeac;color: #fff}
+
+.m-hotul li .m-newtags a:nth-child(3) {border-color:#0af;color: #0af}
+.m-hotul li .m-newtags a:nth-child(3):hover {background-color:#0af;color: #fff}
+
+.m-hotul li .m-newtags a:nth-child(4) {border-color:#fb0;color: #fb0}
+.m-hotul li .m-newtags a:nth-child(4):hover {background-color:#fb0;color: #fff}
+
+.m-hotul li .m-newtags a:nth-child(5) {border-color:#e0f;color: #e0f}
+.m-hotul li .m-newtags a:nth-child(5):hover {background-color:#e0f;color: #fff}
+
+.m-hotul li .m-newtime { padding-bottom: 10px; }
+.m-hotul li .m-newtime .f-fl{ color: #aaa }
+.m-hotul li .m-newtime .f-fr{ margin-right: 20px; }
+.m-hotul li .m-newtime .f-fr i {    display: inline-block;    width: 15px;    height: 15px;        position: relative;    top: 2px;    margin-right: 4px;}
+.m-hotul li .m-newtime .m-pl i {background-position: -429px 0;}
+.m-hotul li .m-newtime .m-fx i {background-position: -395px 0;}
+.m-hotul li .m-newtime .m-pl { color: #aaa }
+
+.m-hotul li.m-oneimg { padding: 20px 0 10px; height: 130px; }
+.m-hotul li.m-oneimg .m-img,.m-hotul li.m-oneimg div {  float: left; }
+.m-hotul li.m-oneimg .m-tit {  padding-top: 0 }
+.m-hotul li.m-oneimg div { width: 407px; color: #666; height: 40px; font-size: 14px; overflow: hidden;}
+/* 人气排行 */
+
+.m-inph { width: 200px; }
+
+.m-newhot {}
+.m-newhot li{border-bottom: 1px #eee solid; padding: 10px 0 4px}
+.m-newhot li a{ line-height: 20px; height: 40px; overflow: hidden; display: block; font-size: 15px }
+.m-newhot li  span { width: 20px; height: 20px; line-height: 20px; text-align: center; color:#fff; background-color: #ccc; border-radius: 3px; margin-right: 15px; margin-top: 3px}
+.m-newhot li p { text-align: right; height: 20px; line-height: 20px; margin:7px 0 6px; color: #aaa }
+.m-newhot li p i{ display: inline-block; width: 15px ; height: 15px;  background-position:-429px 0; position: relative;top: 2px;margin-right: 4px   }
+
+
+
+
+
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+/* 热点 */
+.g-inhot { margin-bottom: 20px; }
+.m-inhot { width: 610px; }
+
+.m-inhot .m-hotdianp{  background-color: #eee }
+.m-inhot .m-hotdianp i{  display: inline-block; width: 152px; height: 46px; line-height: 46px; text-align: center; font-size: 18px }
+.m-inhot .m-hotdianp i.f-hover { background-color: #fd6a88; color: #fff }
+
+.m-imgnew { margin-bottom: 6px; }
+.m-imgnew a{ display: block; width: 320px; height: 122px;position: relative; overflow: hidden; }
+.m-imgnew a img {display: block; width: 320px; height: 122px;transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out;	-moz-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; transform:scale(1); -webkit-transform:scale(1); -moz-transform:scale(1); -o-transform:scale(1); }
+.m-imgnew a:hover img {transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out;	transform:scale(1.2); -webkit-transform:scale(1.2);	-moz-transform:scale(1.2); -o-transform:scale(1.2);}
+.m-imgnew a p{ width: 86%; height: 36px; line-height: 36px; color: #333; background-color: rgba(255,255,255,0.8);position: absolute;bottom: 8px; overflow: hidden; left:5%; padding: 0 2%; font-size: 14px; }
+.m-imgnew a:hover p {background-color:#fff; color: #fd6a88}
+
+.m-big a,.m-big a img{width: 374px; height: 428px;}
+.m-saimg a,.m-saimg a img{width: 374px; height: 305px;}
+.m-heimg a,.m-heimg a img{width: 438px; height: 254px;}
+.m-inbyright { width: 458px; }
+
+.m-inbyul { margin-left: -18px }
+.m-inbyul li{ margin-left:18px; }
+.m-newliul { margin-bottom: 15px; }
+.m-newliul li{ height: 30px; line-height: 30px; overflow: hidden; font-size: 14px; }
+
+
+.m-newliul li a em{ float: left; width: 20px; height: 20px; line-height: 20px; text-align: center; background-color: #aaa; border-radius: 20px; color:#fff; font-size: 12px;margin:4px 5px 0 0 ;background-color: #fd6a88; }
+.m-newtopsul{ margin:0 0 0 20px; padding: 0px 0 8px 0 }
+.m-newtopsul li { height: 31px; line-height: 31px; overflow: hidden; }
+.m-newtopsul li a { font-size: 14px; }
+.m-newtopsul li span.f-fr {color: #999}
+.m-newtopsul li span.f-fl{ background-color: #00aaff; width: 4px; height: 4px; margin:14px 5px 0 0;}
+
+.m-bydiv .m-inbyright .m-inbyul { margin-left: 0 }
+
+
+.f-tw{ position:relative; width:210px; height:145px; margin:0 0 10px; overflow:hidden;}
+.f-tw a{ display: block; }
+.f-tw img{ width:210px; height:145px;transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out;	-moz-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out; transform:scale(1); -webkit-transform:scale(1); -moz-transform:scale(1); -o-transform:scale(1);}
+.f-tw a:hover img {transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out;	transform:scale(1.2); -webkit-transform:scale(1.2);	-moz-transform:scale(1.2); -o-transform:scale(1.2);}
+.f-tw p{ position:absolute; left:0; bottom:0; width:100%; height:30px; line-height:30px; text-align:center; background-color:rgba(255,255,255,0.6);*background-color:#fff; color:#333; display: none }
+.f-tw p span{ padding:0 8px; display: block; font-size: 14px;}
+.f-hover p { display: block; }
+
+.f-twbig,.f-twbig  img{width: 320px; height: 220px;}
+.m-info {  color: #ccc;    border-bottom: 1px #eee solid;  }
+.m-div { margin-bottom: 10px; line-height: 22px;font-size: 14px;overflow: hidden;height: 90px;}
+.m-hotgul {  }
+.m-hotgul li{ margin-top: 15px;border-bottom:1px #eee solid; padding-bottom: 15px }
+.m-hotgul li a{ display: block; }
+.m-hotgul li a p.f-fl{ width: 140px; height: 96px; overflow:hidden; margin-right: 16px }
+.m-hotgul li a p.f-fl img{ display: block;width: 140px; height: 96px; }
+.m-hotgul li a strong{ display: block; font-weight: normal; font-size: 14px; height: 54px; overflow:hidden; line-height: 18px; margin-bottom: 5px }
+.m-hotgul li a span { font-size: 13px ; color: #aaa}
+
+.m-blphul li {  }
+.m-blphul li a { display: block; height: 40px; line-height: 40px; overflow: hidden; font-size: 14px; }
+
+.m-blphul li a em{ float: left; width: 20px; height: 20px; line-height: 20px; text-align: center; background-color: #aaa; border-radius: 20px; color:#fff; font-size: 12px;margin:10px 5px 0 0 ; }
+.m-blphul li a em {    background-color: #fd6a88;}
+/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+/* 育儿之道 */
+.g-yezd { margin-bottom: 10px; }
+.g-yezd .m-yezd { width: 20px; background-position: 0 -232px; height: 120px; text-align: center; font-size: 16px; padding:30px 20px 0; line-height: 22px  	 }
+
+.g-yezd dd{ width: 150px; margin-left: 2px; }
+.g-yezd dd a{height: 130px; display: block; background-color: #ffc7d2;   text-align: center; font-size: 16px; color: #fff; padding-top: 20px}
+.g-yezd dd a:hover { background-color: #fd6a88; }
+
+.g-yezd dd a i { display: block;width: 70px; height: 80px; margin:0px auto 0; }
+.g-yezd dd.m-xse a i { background-position: -30px -100px; }
+.g-yezd dd.m-01 a i { background-position: -183px -100px; }
+.g-yezd dd.m-13 a i { background-position: -328px -100px; }
+.g-yezd dd.m-36 a i { background-position: -454px -100px; }
+.g-yezd dd.m-jb a i { background-position: -576px -100px; }
+
+.m-tit3 { background-color: #eee; height: 60px; border-radius: 26px; margin-bottom: 20px; }
+.m-tit3 ul {padding: 0 0 0 40px}
+.m-tit3 ul li { width: 120px;margin:10px 10px 0 0px;  }
+.m-tit3 ul li a { display: block; height: 40px; line-height: 40px; text-align: center; font-size: 15px; border-radius: 20px; }
+.m-tit3 ul li.f-hover a{ background-color: #fd6a88; color: #fff }
+
+/*织梦58（dede58.com）做最好的织梦整站模板下载网站*/
+/* 产后 */
+
+.m-chdt { width: 374px; }
+.m-chdd { width: 438px; margin-left:34px; }
+
+
+.m-ulimgnew { margin-bottom: 20px; background-color: #fafafa; }
+.m-ulimgnew li { border-bottom: 1px #eee solid; margin:0 20px; }
+.m-ulimgnew li .m-nsmall { display: block; height: 40px; line-height: 40px; overflow: hidden; font-size: 16px; }
+
+
+.m-ulimgnew li.f-ix .m-nsmall{ display: none }
+.m-ulimgnew li.f-t3 .m-nsmall  em{ background-color: #fd6a88 }
+.m-ulimgnew li .m-nbig { height: 115px;  overflow: hidden; display: none; margin-bottom: 20px; padding-top: 10px; }
+.m-ulimgnew li .m-nbig span { margin:10px 20px 0 0px; }
+.m-ulimgnew li .m-nbig span a  {}
+.m-ulimgnew li .m-nbig span a  img{ width: 130px; height: 76px; }
+.m-ulimgnew li .m-nbig span a:hover img {transform:scale(1); -webkit-transform:scale(1);	-moz-transform:scale(1); -o-transform:scale(1);}
+.m-ulimgnew li .m-nbig div {padding:6px 0 4px;  height: 76px; overflow:hidden; line-height: 20px; font-size: 14px; color:#aaa }
+
+.m-ulimgnew li .m-nbig em { display: block; color: #aaa }
+.m-ulimgnew li.f-ix .m-nbig { display: block; }
+.m-ulimgnew li .m-ntit { font-size: 16px; height: 28px; line-height: 28px; text-align: left; overflow: hidden; display: block; }
+
+
+
+
+.m-imu { width: 320px; border-bottom: 1px #eee solid  }
+.m-imu a {  text-align: center; }
+.m-imu a strong{ display: block;  text-align: center; height: 40px; line-height: 40px; font-weight: normal; font-size: 14px;overflow:hidden; }
+.m-imu a p,.m-imu a p img { display: block;width: 320px; height: 220px; overflow: hidden;}
+.m-imu a p img {transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out;transform:scale(1); -webkit-transform:scale(1);	-moz-transform:scale(1); -o-transform:scale(1);}
+.m-imu a:hover p img {transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out; -o-transition:all 0.5s ease-in-out;transform:scale(1.2); -webkit-transform:scale(1.2);	-moz-transform:scale(1.2); -o-transform:scale(1.2);}
+
+
+.g-youlian li { margin-right: 20px; }
+.g-youlian li a { font-size: 16px;  }
+
+
+
+
+
+
+
+
+
+
+
+.gun{    animation: loading 1s;    -webkit-animation: loading 1s; }
+@keyframes loading
+{
+    from { transform: rotate(0deg); -ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); }
+    to { transform: rotate(360deg); -ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); }
+}
+ 
+@-webkit-keyframes loading
+{
+   from { transform: rotate(0deg); -ms-transform: rotate(0deg); -webkit-transform: rotate(0deg); }
+   to { transform: rotate(360deg); -ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); }
+}	

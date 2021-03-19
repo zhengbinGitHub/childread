@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* 主题背景 */
+.layui-layout-body {
+  height: 100vh;
+  background: url("../images/bg.png") no-repeat center;
+  background-size: 100% 100%;
+}
+
+.login-con {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #ececec;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.login-con .login-hd {
+  text-align: center;
+}
+
+.login-con .login-hd .hd-logo {
+  width: 80px;
+  height: 80px;
+}
+
+.login-con .login-hd .hd-title {
+  margin-bottom: 5px;
+  font-size: 28px;
+  color: #0079FE;
+}
+
+.login-con .login-hd .hd-prop {
+  margin-bottom: 10px;
+  color: #0079FE;
+}
+
+.login-con .login-item {
+  position: relative;
+}
+
+.login-con .login-item .login-icon {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  width: 38px;
+  line-height: 36px;
+  text-align: center;
+  color: #d2d2d2;
+}
+
+.login-con .login-item .layui-input {
+  padding-left: 38px;
+}
+
+.error-msg {
+  color: #fff;
+  padding: 3px;
+  background: #666;
+  border-radius: 2px;
+}
